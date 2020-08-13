@@ -8,4 +8,5 @@ This repository contains a Larq based implementation of the networks described i
 * [Larq](https://github.com/larq/larq)
 
 ## MNIST MLP
+    python binarynet_mnist_mlp.py
 This implementation achieves a test accuracy of **97.1%** after training for 20 epochs.
