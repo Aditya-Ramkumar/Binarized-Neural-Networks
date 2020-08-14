@@ -3,10 +3,14 @@ This repository contains a Larq based implementation of the networks described i
 
 
 ## Requirements
-* Python 3.7
+* Python 3.7, numpy
 * [Tensorflow](https://github.com/tensorflow/tensorflow)
 * [Larq](https://github.com/larq/larq)
 
-## MNIST MLP
+## BinaryNet MNIST MLP
     python binarynet_mnist_mlp.py
 This implementation achieves a test accuracy of **97.1%** after training for 20 epochs.
+
+## Binary LeNet 
+        python binarylenet_mnist.py
+A binarized version of LeNet5 is trained for 10 epochs and achieves a test accuracy of **96.93%.**        
